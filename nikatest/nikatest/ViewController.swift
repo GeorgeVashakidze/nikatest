@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("dagendzreva axla : ))))")
@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     func helloWorld2() {
         print("damerje bozo 2")
     }
+    
+    @IBAction func clickButton (_ sender: Any) {
+        print("hello world")
+    }
 }
-

@@ -20,11 +20,11 @@
                                 <rect key="frame" x="155" y="433" width="104" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
-                                <state key="normal" title="CLICK">
+                                <state key="normal" title="click button">
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="clivkbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hGP-DU-1eA"/>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcm-fv-VRH"/>
                                 </connections>
                             </button>
                         </subviews>

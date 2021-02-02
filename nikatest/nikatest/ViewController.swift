@@ -8,7 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBAction func clivkbutton(_ sender: Any) {
+        print("hello world")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

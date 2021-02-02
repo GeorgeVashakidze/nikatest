@@ -10,10 +10,20 @@ import UIKit
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        print("dagendzreva axla : ))))")
+        helloWorld2()
     }
-
+    
+    func helloWorld() {
+        print("damerje bozo")
+    }
+    
+    func helloWorld2() {
+        print("damerje bozo 2")
+    }
+    
     @IBAction func clickButton (_ sender: Any) {
-            print("hello world")
-        }
-
+        print("hello world")
+    }
 }
